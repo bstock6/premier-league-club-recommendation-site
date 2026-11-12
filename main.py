@@ -7,6 +7,7 @@ from dataclasses import dataclass
 hide_debug_information()
 set_website_title("Your Drafter Website")
 set_website_framed(False)
+set_site_information(author = "", description= "", sources= [], planning= [""], links=[]
 
 
 @dataclass
