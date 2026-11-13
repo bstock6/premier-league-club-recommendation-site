@@ -7,7 +7,7 @@ from dataclasses import dataclass
 hide_debug_information()
 set_website_title("Premier League Club Recommender")
 set_website_framed(False)
-set_site_information(author = "Brayden Stockmaster", description= "A site meant for beginner soccer fans to get an idea of Premier League Clubs they may enjoy watching", sources= ["Premier League Rosters", "CISC 106 LLM" ], planning= ["Pick a Problem Document", "Planning Document"], links=["https://www.premierleague.com/en/players?competition=8&season=2026"]
+set_site_information(author = "Brayden Stockmaster", description= "A site meant for beginner soccer fans to get an idea of Premier League Clubs they may enjoy watching", sources= ["Premier League Rosters", "CISC 106 LLM" ], planning= ["Pick a Problem Document", "Planning Document"], links=["https://www.premierleague.com/en/players?competition=8&season=2026"])
 
 
 @dataclass
@@ -1267,14 +1267,7 @@ def test_player_category() -> None:
 # WEBSITE INFORMATION
 # -----------------------------------------
 
-set_site_information(
-    "Your Name",
-    "Premier League Club Drafter",
-    "A website that recommends a Premier League club "
-    "based on a user's soccer preferences.",
-    "2026/27 Premier League season",
-    []
-)
+
 
 
 # -----------------------------------------
