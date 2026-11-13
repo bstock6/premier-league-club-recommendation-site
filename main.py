@@ -676,10 +676,10 @@ def index(state: State) -> Page:
         A Drafter Page containing the welcome message and start button.
     """
     return Page(state, [
-        Header("Premier League Club Drafter"),
+        Header("Premier League Club Recommender"),
         "Not sure which Premier League club to support?",
         "Answer five soccer-related questions to discover "
-        "which club best matches your preferences.",
+        "which club best matches your preferences!",
         Button("Start Finding My Club", "playstyle")
     ])
 
